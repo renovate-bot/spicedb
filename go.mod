@@ -3,11 +3,11 @@ module github.com/authzed/spicedb
 go 1.16
 
 require (
-	cloud.google.com/go/spanner v1.28.0
+	cloud.google.com/go/spanner v1.30.0
 	github.com/Masterminds/squirrel v1.5.2
 	github.com/authzed/authzed-go v0.5.1-0.20220303182356-243e79ca06fa
 	github.com/authzed/grpcutil v0.0.0-20220104222419-f813f77722e5
-	github.com/aws/aws-sdk-go v1.43.8
+	github.com/aws/aws-sdk-go v1.43.11
 	github.com/benbjohnson/clock v1.3.0
 	github.com/cespare/xxhash v1.1.0
 	github.com/containerd/continuity v0.2.1 // indirect
@@ -17,7 +17,7 @@ require (
 	github.com/dustin/go-humanize v1.0.0
 	github.com/ecordell/optgen v0.0.6
 	github.com/emirpasic/gods v1.12.0
-	github.com/envoyproxy/protoc-gen-validate v0.6.6
+	github.com/envoyproxy/protoc-gen-validate v0.6.7
 	github.com/fatih/color v1.13.0
 	github.com/fatih/structs v1.1.0
 	github.com/go-co-op/gocron v1.13.0
@@ -37,7 +37,7 @@ require (
 	github.com/jmoiron/sqlx v1.3.4
 	github.com/johannesboyne/gofakes3 v0.0.0-20210608054100-92d5d4af5fde
 	github.com/jwangsadinata/go-multimap v0.0.0-20190620162914-c29f3d7f33b6
-	github.com/jzelinskie/cobrautil v0.0.7
+	github.com/jzelinskie/cobrautil v0.0.8
 	github.com/jzelinskie/stringz v0.0.1
 	github.com/lib/pq v1.10.4
 	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6 // indirect
@@ -57,16 +57,15 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.29.0
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.28.0
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.29.0
 	go.opentelemetry.io/otel v1.4.1
-	go.opentelemetry.io/otel/exporters/jaeger v1.3.0 // indirect
 	go.opentelemetry.io/otel/trace v1.4.1
 	go.uber.org/goleak v1.1.12
 	golang.org/x/crypto v0.0.0-20220131195533-30dcbda58838 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/tools v0.1.9
 	google.golang.org/api v0.70.0
-	google.golang.org/genproto v0.0.0-20220218161850-94dd64e39d7c
+	google.golang.org/genproto v0.0.0-20220222213610-43724f9ea8cf
 	google.golang.org/grpc v1.44.0
 	google.golang.org/protobuf v1.27.1
 	gopkg.in/ini.v1 v1.66.3 // indirect
